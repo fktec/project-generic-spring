@@ -1,4 +1,4 @@
-package com.back.genericbasicspringboot.core.config.security;
+package com.back.genericbasicspringboot.core.config.security.credentials;
 
 import java.io.IOException;
 

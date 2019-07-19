@@ -1,4 +1,4 @@
-package com.back.genericbasicspringboot.api.car.repository;
+package com.back.genericbasicspringboot.common.api.car.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

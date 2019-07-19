@@ -1,4 +1,4 @@
-package com.back.genericbasicspringboot.core.config.security;
+package com.back.genericbasicspringboot.core.config.security.credentials;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -7,8 +7,8 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.back.genericbasicspringboot.api.car.repository.CarRepository;
 import com.back.genericbasicspringboot.common.api.car.model.Car;
+import com.back.genericbasicspringboot.common.api.car.repository.CarRepository;
 
 @Service
 public class CarService {

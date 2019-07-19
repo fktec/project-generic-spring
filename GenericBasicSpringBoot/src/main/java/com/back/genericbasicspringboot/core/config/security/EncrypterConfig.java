@@ -1,4 +1,4 @@
-package com.back.genericbasicspringboot.core.config;
+package com.back.genericbasicspringboot.core.config.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,4 +12,7 @@ public class EncrypterConfig {
 		return new BCryptPasswordEncoder();
 	}
 	
+	public static void main (String[] args) {
+		System.out.println(new EncrypterConfig().bcrypt().encode("1234"));
+	}
 }
