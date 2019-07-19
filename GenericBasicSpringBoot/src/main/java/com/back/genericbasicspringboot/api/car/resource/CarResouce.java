@@ -16,13 +16,11 @@ import com.back.genericbasicspringboot.common.api.car.service.CarService;
 
 @RestController
 @RequestMapping("/car")
-//@CrossOrigin
 public class CarResouce {
 	
 	@Autowired
 	private CarService carService;
 
-	
 	@GetMapping
 	public ResponseEntity<List<Car>> getCars() {
 		List<Car> cars = carService.getCars();
